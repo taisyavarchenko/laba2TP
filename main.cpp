@@ -67,6 +67,7 @@ int main() {
 
 		string res = getChangeString(in); // получаем итоговую строку
 		cout << "Result: " << res << endl; // выводим строку
+		in.close();
 
 	}
 	// ловим исключения
